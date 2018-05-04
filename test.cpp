@@ -39,9 +39,9 @@ void Test::addBackTest()
     
         if(testList->size() == 100)
         {
-            cout << "pass." <<endl;
+            cout << "sucess" <<endl;
         }
         else
         {
-            cout << "fail, " << testList->size() << "elememt(s) in the list." <<endl;
+            cout << "not sucess" << testList->size() << "elememt(s) in the list." <<endl;
         }
